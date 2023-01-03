@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/AddData
+content-type: application/json
+
+{
+    "name" : "Chirag",
+    "password" : "Chirag",
+    "email" : "chirag@gmail.com",
+    "phone" : "8154886779",
+    "gender" : "Male",
+    "course" : "MCA"
+}
+
+####
+
+GET http://localhost:5000/api/DispData
+
+####
+
+DELETE http://localhost:5000/api/DelData/632fda4b2cab4bdeea828bcd
+
+####
+
+GET http://localhost:5000/api/SearchData/632f275ad35f6d984cd27d14
